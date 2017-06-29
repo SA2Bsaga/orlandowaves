@@ -16,6 +16,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -26,47 +27,185 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active">
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+
+    <nav style="position: relative; bottom:20px;">
+      <div class="nav-wrapper cyan lighten-3">
+        <a href="#" class="brand-logo">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="playerstats.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
         </ul>
-        <h3 class="text-muted">project_orlandowaves</h3>
       </div>
+    </nav>
 
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img onclick="myFunction()" src="http://www.placecage.com/300/250">
+              <span class="card-title left-align">AJ Williams</span>
+            </div>
+            <div class="card-action left-align">
+              <span>Left</span>
+              <span>Align</span>
+              <a href="#">FTW</a>
+            </div>
+          </div>
+        </div>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title center-align">Brett Comer</span>
+            </div>
+            <div class="card-action center-align">
+              <span>Center</span>
+              <span>Align</span>
+              <a href="#">FTW</a>
+            </div>
+          </div>
+        </div>
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title right-align">Luis Jacobo</span>
+            </div>
+            <div class="card-action right-align">
+              <span>Right</span>
+              <span>Align</span>
+              <a href="#">FTW</a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img onclick="myFunction()" src="http://www.placecage.com/300/250">
+              <span class="card-title">Jerrell Oxendine</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Duke Jones</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Dominique Williams</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img onclick="myFunction()" src="http://www.placecage.com/300/250">
+              <span class="card-title">Josh Castellanos</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Josh Warren</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Brenton Williams</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img onclick="myFunction()" src="http://www.placecage.com/300/250">
+              <span class="card-title">Jeff Casseus</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">David Gabriel</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Osanto Marc</span>
+            </div>
+            <div class="card-action">
+              <a href="#">Bio</a>
+              <a href="#">Player Stats</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -78,6 +217,12 @@
       e.src='https://www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <script>
+      function myFunction() {
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
     </script>
 
     <!-- build:js scripts/vendor.js -->
@@ -104,6 +249,7 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     <!-- endbuild -->
   </body>
 </html>
