@@ -17,6 +17,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/secondary.css">
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -46,26 +47,12 @@
           <div class="card">
           <div class="card-image">
               <img onclick="myFunction()" src="http://www.placecage.com/300/250">
-              <span class="card-title left-align">AJ Williams</span>
+              <span class="card-title">AJ Williams</span>
             </div>
-            <div class="card-action left-align">
-              <span>Left</span>
-              <span>Align</span>
-              <a href="#">FTW</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6 l4">
-          <div class="card">
-          <div class="card-image">
-              <img src="http://www.placecage.com/300/250">
-              <span class="card-title center-align">Brett Comer</span>
-            </div>
-            <div class="card-action center-align">
-              <span>Center</span>
-              <span>Align</span>
-              <a href="#">FTW</a>
+            <div class="card-action">
+              <h4>#23</h4>
+              <p>Position:  Forward</p>
+              <p>Height:  6'5"</p>
             </div>
           </div>
         </div>
@@ -74,12 +61,26 @@
           <div class="card">
           <div class="card-image">
               <img src="http://www.placecage.com/300/250">
-              <span class="card-title right-align">Luis Jacobo</span>
+              <span class="card-title">Brett Comer</span>
             </div>
-            <div class="card-action right-align">
-              <span>Right</span>
-              <span>Align</span>
-              <a href="#">FTW</a>
+            <div class="card-action">
+              <h4>#0</h4>
+              <p>Position:  Point Guard</p>
+              <p>Height:  6'3"</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card">
+          <div class="card-image">
+              <img src="http://www.placecage.com/300/250">
+              <span class="card-title">Luis Jacobo</span>
+            </div>
+            <div class="card-action">
+              <h4>#19</h4>
+              <p>Position:  Guard</p>
+              <p>Height: 6'5"</p>
             </div>
           </div>
         </div>
@@ -93,8 +94,9 @@
               <span class="card-title">Jerrell Oxendine</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#3</h4>
+              <p>Position:  Point Guard</p>
+              <p>Height:  5'10"</p>
             </div>
           </div>
         </div>
@@ -106,8 +108,9 @@
               <span class="card-title">Duke Jones</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#10</h4>
+              <p>Position:  Forward</p>
+              <p>Height:  6'5"</p>
             </div>
           </div>
         </div>
@@ -119,8 +122,9 @@
               <span class="card-title">Dominique Williams</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#43</h4>
+              <p>Position:  Forward</p>
+              <p>Height:  6'4"</p>
             </div>
           </div>
         </div>
@@ -134,8 +138,9 @@
               <span class="card-title">Josh Castellanos</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#5</h4>
+              <p>Position:  Point Guard</p>
+              <p>Height:  6'1"</p>
             </div>
           </div>
         </div>
@@ -147,8 +152,9 @@
               <span class="card-title">Josh Warren</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#32</h4>
+              <p>Position:  Forward</p>
+              <p>Height:  6'9"</p>
             </div>
           </div>
         </div>
@@ -160,8 +166,9 @@
               <span class="card-title">Brenton Williams</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#2</h4>
+              <p>Position:  Guard</p>
+              <p>Height:  6'2"</p>
             </div>
           </div>
         </div>
@@ -175,8 +182,9 @@
               <span class="card-title">Jeff Casseus</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#41</h4>
+              <p>Position:  Center</p>
+              <p>Height:  6'7"</p>
             </div>
           </div>
         </div>
@@ -188,8 +196,9 @@
               <span class="card-title">David Gabriel</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#33</h4>
+              <p>Position:  Center</p>
+              <p>Height:  6'10"</p>
             </div>
           </div>
         </div>
@@ -201,13 +210,33 @@
               <span class="card-title">Osanto Marc</span>
             </div>
             <div class="card-action">
-              <a href="#">Bio</a>
-              <a href="#">Player Stats</a>
+              <h4>#6</h4>
+              <p>Position:  Guard</p>
+              <p>Height:  6'2"</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <!-- The display area for player stats -->
+<!-- Trigger/Open The Modal -->
+<img id="myBtn" src="http://placecage.com/300/300">
+
+<!-- The Modal -->
+<div id="myModal" class="modal_custom">
+
+  <!-- Modal content -->
+  <div class="modal-content-custom"></div>
+  <div class="player-stats">
+      <table class="tableizer-table"><thead><tr class="tableizer-firstrow"><th>Player</th>
+  <th>GP</th><th>FG</th><th>2P</th><th>3P</th><th>FT</th><th>OR</th><th>DR</th><th>TR</th><th>RPG</th><th>AST</th><th>APG</th><th>STL</th><th>Defl</th><th>TO</th><th>BLK</th><th>PF</th><th>TECH</th><th>PTS</th><th>PPG</th></tr></thead><tbody>
+
+    <span class="close">&times;</span>
+    <p><tr><td>#23 A. Williams</td><td>15</td><td>101 - 173 (58)%</td><td>100 - 168 (60)%</td><td>1 - 5 (20)%</td><td>32 - 38 (84)%</td><td>73</td><td>89</td><td>162</td><td>10.8</td><td>30</td><td>2</td><td>23</td><td>15</td><td>39</td><td>9</td><td>38</td><td>0</td><td>235</td><td>15.7</td></tr></p>
+      </table>
+  </div>
+
+</div>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -220,8 +249,36 @@
     </script>
 
     <script>
+
+      //FOR DEBUGGING PURPOSESd
       function myFunction() {
         document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+          modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+          modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
       }
     </script>
 
